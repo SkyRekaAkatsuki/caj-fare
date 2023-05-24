@@ -31,7 +31,6 @@ public class FareApplicationService {
 
 	public JsonNode getFareTable(String type) throws JsonMappingException, JsonProcessingException {
 		// call master-file to validate station ...
-		// call master-file to validate station ...
 		String stations=restClient.call(stationAPI);
 		log.info(stations);
 		
